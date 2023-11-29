@@ -1,0 +1,58 @@
+.view-main{
+    background-image: url(../../../public/group-people-working-out-business-plan-office.jpg);
+    height: auto;
+    padding-bottom: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+}
+.view-details-div{
+    width: 50%;
+    /* text-align: center; */
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.819);
+    margin: auto;
+    padding: 30px;
+    border-bottom: 5px solid red;
+    border-left: 5px solid red;
+}
+.image-name-email-section{
+    width: 100%;
+    display: flex;
+    height: auto;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    /* background-color: yellow; */
+}
+.view-img{
+    width: 30%;
+   
+}
+.view-name-email{
+    width: 70%;
+    padding-left: 10%;
+    padding-top: 7%;
+}
+.view-img img{
+    width: 85%;
+}
+.view-name-email h1{
+    color: white;
+    font-weight: 900;
+}
+.view-name-email h4{
+    color: white;
+}
+.view-other-details{
+    /* background-color: red; */
+    /* width: 70%; */
+    margin: auto;
+    padding-top: 25px;
+}
+.view-other-details table{
+    color: white;
+}
+.view-other-details table th,.view-other-details table td{
+    height: 50px;
+    font-size: 20px;
+}

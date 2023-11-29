@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Kanit:wght@300&display=swap');
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.navbar-brand{
+    font-size: 25px;
+    font-weight: 900;
+}
+.navbar-collapse{
+   padding-left: 34%;
+}
+.nav-link{
+    font-weight: 700;
+    font-size: 20px;
+}

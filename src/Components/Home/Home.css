@@ -1,0 +1,102 @@
+.main{
+    background-image: url(../../../public/group-people-working-out-business-plan-office.jpg);
+    height: 100vh;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    padding-top: 80px;
+}
+.details-main-card{
+    width: 55%;
+    /* text-align: center; */
+    height: auto;
+    padding-bottom: 25px;
+    background-color: rgba(0, 0, 0, 0.819);
+    margin: auto;
+    border-bottom: 5px solid red;
+    border-left: 5px solid red;
+
+}
+.details-main-heading{
+    text-align: center;
+}
+.details-main-heading h2{
+    color: white;
+    padding: 30px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.employee-list{
+    /* text-align: center; */
+    /* background-color: red; */
+    width: 80%;
+    margin: auto;
+}
+
+.hm-th{
+    width: 160px;
+    height: 60px;
+}
+.hm-th,.hm-td{
+    color: white;
+    font-size: 20px;
+}
+.hm-td-name{
+    color: white;
+    font-size: 20px;
+    width:250px;
+}
+.hm-td{
+    height: 60px;
+   
+}
+.edit,.view,.delete{
+    width: 170px;
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+.edit{
+    background-color: rgb(10, 42, 161);
+    padding: 5px 15px;
+    border-radius: 4px;
+    font-weight: 800;
+    font-size: 17px;
+}
+.view{
+    background-color: rgb(3, 112, 14);
+    padding: 5px 15px;
+    border-radius: 4px;
+    font-weight: 800;
+    font-size: 17px;
+}
+.delete{
+    background-color: rgb(175, 3, 3);
+    padding: 5px 15px;
+    border-radius: 4px;
+    font-weight: 800;
+    font-size: 17px;
+}
+.edit:hover{
+    background-color: rgb(73, 112, 255);
+    color: white;
+}
+.view:hover{
+    background-color: rgb(0, 198, 20);
+    color: white;
+}
+.delete:hover{
+    background-color: rgb(253, 0, 0);
+    color: white;
+}
+@media(min-width:300px) and (max-width:575.98px){
+    .details-main-card{
+        width: 95%;
+        /* text-align: center; */
+        height: 400px;
+        background-color: rgba(0, 0, 0, 0.819);
+        margin: auto;
+        border-bottom: 5px solid red;
+        border-left: 5px solid red;
+    
+    }
+}

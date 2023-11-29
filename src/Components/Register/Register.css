@@ -1,0 +1,75 @@
+.register-main-div{
+    background-image: url(../../../public/group-people-working-out-business-plan-office.jpg);
+    height: auto;
+    padding-bottom: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+}
+.register-details-div{
+    width: 75%;
+    /* text-align: center; */
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.819);
+    margin: auto;
+    padding: 30px;
+    border-bottom: 5px solid red;
+    border-left: 5px solid red;
+}
+.register-heading{
+    text-align: center;
+}
+.register-table{
+    width: 70%;
+    padding: 20px;
+    margin: auto;
+    /* background-color: red; */
+}
+.register-heading h2{
+    color: white;
+    font-weight: 900;
+    
+}
+
+.th{
+    color: white;
+    font-size: 19px;
+}
+.td{
+   width: 81%;
+   color: white;
+}
+input{
+    background-color: transparent;
+    border: 1px solid white;
+    width: 100% !important;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 12px;
+    color: white;
+    border-radius: 3px;
+}
+input::placeholder{
+    color: white;
+}
+.submit-btn{
+    /* background-color: red; */
+    text-align: center;
+}
+.submit-btn button{
+    margin-top: 60px;
+    background-color: rgb(255, 255, 255);
+    padding: 8px 60px;
+    border: 1px solid white;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 900;
+    transition: .4s;
+    border-radius: 4px;
+}
+.submit-btn button:hover{
+    background-color: transparent;
+    color: white;
+}
